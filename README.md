@@ -52,7 +52,7 @@ File System Simulator — это модульная система, модели
 
 ---
 
-### Custom container
+## 📦 Custom container
 
 В проекте реализован собственный ассоциативный контейнер (`include/domain/objects/dan_map.h`) на основе **AVL-дерева** (self-balancing BST), обеспечивающего `O(log n)` для `find / insert / erase`.
 
@@ -65,7 +65,7 @@ File System Simulator — это модульная система, модели
 
 Используется в `DirectoryStructure` для хранения объектов файловой системы:
 ```cpp
-Tree<std::string, std::unique_ptr<IFileObject>>
+Tree<std::string, std::unique_ptr<IFileObject>>```.
 
 ---
 
