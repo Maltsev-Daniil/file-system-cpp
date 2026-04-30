@@ -64,8 +64,8 @@ File System Simulator — это модульная система, модели
 - автоматическую балансировку (rotation + balance factor)
 
 Используется в `DirectoryStructure` для хранения объектов файловой системы:
-```cpp
-Tree<std::string, std::unique_ptr<IFileObject>>```.
+`cpp
+Tree<std::string, std::unique_ptr<IFileObject>>`.
 
 ---
 
